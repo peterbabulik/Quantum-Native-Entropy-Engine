@@ -5,7 +5,7 @@ The entropy engine has passed the full **Marsaglia Dieharder Battery** (v3.31.1)
 
 ### Prerequisites
 ```bash
-pip install numpy scipy matplotlib
+pip install numpy
 sudo apt install dieharder
 ```
 
