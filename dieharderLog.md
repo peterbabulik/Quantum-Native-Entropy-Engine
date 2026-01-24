@@ -2,7 +2,6 @@
 The entropy engine has passed the full **Marsaglia Dieharder Battery** (v3.31.1).
 *   **Method:** Streaming Pipe (`python3 | dieharder -g 200 -a`)
 *   **Result:** PASSED (including NIST and RGB Bit Distribution tests)
-*   **Log:**
 
 ### Prerequisites
 ```bash
@@ -48,7 +47,7 @@ if __name__ == "__main__":
 python3 testStream.py | dieharder -g 200 -a
 ```
 
-### log
+### log:
 ```bash
 #=============================================================================#
 #            dieharder version 3.31.1 Copyright 2003 Robert G. Brown          #
